@@ -17,7 +17,8 @@ namespace Synchronicity.Server.Controllers
         // GET: api/Connection
         public IEnumerable<History> Get()
         {
-            return historyRepository.Get();
+            return null;
+            //return historyRepository.Get();
             //return new string[] { "value1", "value2" };
         }
 

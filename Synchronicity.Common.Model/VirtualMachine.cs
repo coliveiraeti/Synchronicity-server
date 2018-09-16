@@ -8,6 +8,8 @@ namespace Synchronicity.Common.Model
 
         public string Hostname { get; set; }
 
+        public string WFreeRdpParameters { get; set; }
+
         public IEnumerable<History> History { get; set; }
     }
 }
